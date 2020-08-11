@@ -14,7 +14,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <style>
       .about-us-text{
-        margin-top: -100px;
+        margin-top: -180px;
         color: #0b0d19;
       }
       .modal-text{
@@ -75,7 +75,7 @@
         </div>
     </header>
 
-        <main>
+        <main style="margin-bottom: -100px;">
           <section class="hero text-center text-light">
     <div class="hero-bg"></div>
     <div class="hero-particles-container">
@@ -87,10 +87,7 @@
                     <h1 class="hero-title mt-0 text-3xl">Folio Heath</h1>
                     <p class="hero-paragraph">Secure and Scalable Infrastructure for Monitoring Immunity Against Covid-19</p>
                     <div class="hero-cta">
-                          <form method="get" action="Sample Deck.pdf">
-                                 <button class="button button-primary button-wide-mobile" type="submit">Download Our Deck</button>
-</form>
-                      
+                      <div style="height: 50px;"></div>      
         </div>
         
                       
@@ -195,7 +192,7 @@
 								<h2 class="section-title mt-0">Stay in the know</h2>
 								<p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
 								<div class="cta-cta">
-									<a class="button button-primary button-wide-mobile" href="#">Get early access</a>
+									<a class="button button-primary button-wide-mobile" href="#early-access" rel="modal:open">Get early access</a>
 								</div>
 							</div>
 						</div>
@@ -221,11 +218,15 @@
 								<a href="contact.html">Contact</a>
 							</li>
 							<li>
-								<a href="#ex1" rel="modal:open">Support</a>
+								<a href="#support" rel="modal:open">Support</a>
 							</li>
 						</ul>
-						<div id="ex1" class="modal">
+						<div id="support" class="modal">
 							<p class="modal-text">Please email foliohealth@example.com for any questions, comments, or requests.</p>
+							<a class="modal-close-text" href="#" rel="modal:close">Dismiss</a>
+            </div>
+            <div id="early-access" class="modal">
+							<p class="modal-text">Please email foliohealth@email.com for early access inquiries.</p>
 							<a class="modal-close-text" href="#" rel="modal:close">Dismiss</a>
 						</div>
 

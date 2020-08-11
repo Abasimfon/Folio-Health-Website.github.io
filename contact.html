@@ -15,7 +15,7 @@
 <!-- More Styles -->
 <style>
 .contact-us-text{
-  margin-top: -100px;
+  margin-top: -180px;
   color: #0b0d19;
 
 }
@@ -25,6 +25,7 @@
   background-size:cover;
   display: flex;
   justify-content: center;
+  margin-bottom: -150px;
 }
 .contact-form{
   background-color: whitesmoke;
@@ -444,7 +445,7 @@
             <h2 class="section-title mt-0">Stay in the know</h2>
             <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
             <div class="cta-cta">
-              <a class="button button-primary button-wide-mobile" href="#">Get early access</a>
+              <a class="button button-primary button-wide-mobile" href="#early-access"  rel="modal:open">Get early access</a>
             </div>
           </div>
         </div>
@@ -470,11 +471,15 @@
             <a href="contact.html">Contact</a>
           </li>
           <li>
-            <a href="#ex1" rel="modal:open">Support</a>
+            <a href="#support" rel="modal:open">Support</a>
           </li>
         </ul>
-        <div id="ex1" class="modal">
+          <div id="support" class="modal">
           <p class="modal-text">Please email foliohealth@example.com for any questions, comments, or requests.</p>
+          <a class="modal-close-text" href="#" rel="modal:close">Dismiss</a>
+        </div>
+        <div id="early-access" class="modal">
+          <p class="modal-text">Please email foliohealth@email.com for early access inquiries.</p>
           <a class="modal-close-text" href="#" rel="modal:close">Dismiss</a>
         </div>
         
