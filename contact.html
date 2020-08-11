@@ -14,18 +14,22 @@
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 <!-- More Styles -->
 <style>
+.curve{
+  background: url(./src/images/wave.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+  width: 140vw
+      }
 .contact-us-text{
   margin-top: -180px;
   color: #0b0d19;
 
 }
 .contact-form-container{
-  background: url(./src/images/wave.svg);
-  background-repeat: no-repeat;
-  background-size:cover;
   display: flex;
   justify-content: center;
-  margin-bottom: -150px;
+  margin-bottom: -400px;
 }
 .contact-form{
   background-color: whitesmoke;
@@ -35,7 +39,6 @@
   border-radius: 4px;
   display: block;
   margin: auto;
-  margin-bottom: 200px;
 }
 .form-label{
   font-size: 10px;
@@ -432,7 +435,8 @@
         </section>
         
     </main>
-
+    <div class="curve">
+    </div>
 <footer style="z-index: 1;" class="site-footer">
   <div class="footer-particles-container">
     <canvas id="footer-particles"></canvas>
